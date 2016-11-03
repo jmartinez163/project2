@@ -1,0 +1,26 @@
+  h1{color: ghostwhite; font-family: courier; font-size: 300%;}
+  h2{color: ghostwhite; font-family: courier; font-size: 300%;}
+.background {background-color: firebrick;}
+.background2 {background-color: darkolivegreen;}
+.background3{background-color: darkcyan;}
+.background4{background-color: slategrey;}
+.ul1 {color:ghostwhite; font-family: tahoma; font-size:250%; width: 50%; float: left;}
+.ul2{color:ghostwhite; font-family: tahoma; font-size:250%; width: 50%; float: right ;}
+.ul3{color:ghostwhite; font-family: tahoma; font-size:250%; width: 50%; float: right ;}
+.link {background-color: #555555;
+    border-radius: 12px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;}
+.link2 {background-color: red;
+        border-radius: 12px ;
+        color: ghostwhite;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        font-family: courier;}
