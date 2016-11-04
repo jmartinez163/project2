@@ -4,6 +4,7 @@
 .background2 {background-color: darkolivegreen;}
 .background3{background-color: darkcyan;}
 .background4{background-color: slategrey;}
+.result {background-color: ghostwhite; font-size: 300%; font-family: courier;}
 .ul1 {color:ghostwhite; font-family: tahoma; font-size:250%; width: 50%; float: left;}
 .ul2{color:ghostwhite; font-family: tahoma; font-size:250%; width: 50%; float: right ;}
 .ul3{color:ghostwhite; font-family: tahoma; font-size:250%; width: 50%; float: right ;}

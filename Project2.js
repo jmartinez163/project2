@@ -45,20 +45,20 @@ else if(answer2 > 16){
 function test3(){
 var answer3= document.getElementById("T3").value;
 console.log(answer3);
-if(answer3 == 26){
+if(answer3 == 29){
   document.getElementById("Correct3").innerHTML="Well Done!";
   document.getElementById("Correct3").classList.remove("hidden-message");
   document.getElementById("Correct3").classList.add("show-message");
   setCookie("prescore1", 1 , 100);
 }
 
-else if( answer3 <26){
+else if( answer3 <29){
   document.getElementById("Correct3").innerHTML="Sorry, try again...";
   document.getElementById("Correct3").classList.remove("hidden-message");
   document.getElementById("Correct3").classList.add("show-message");
 }
 
-else if (answer3 >26){
+else if (answer3 >29){
   document.getElementById("Correct3").innerHTML="Sorry, try again...";
   document.getElementById("Correct3").classList.remove("hidden-message");
   document.getElementById("Correct3").classList.add("show-message");
@@ -71,6 +71,7 @@ var score1 = Number(getCookie("prescore1"));
 var score2 = Number(getCookie("prescore2"));
 var score3 = Number(getCookie("prescore3"));
 var results = score1 + score2 + score3;
+results = results / 3 * 100;
 document.getElementById("Fsc").innerHTML= asPercentage(results);
 }
 
