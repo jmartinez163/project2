@@ -1,3 +1,4 @@
+//Juan Martinez
 function test1(){
 var answer= document.getElementById("T1").value;
 console.log(answer);
